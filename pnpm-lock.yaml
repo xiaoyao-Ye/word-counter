@@ -1,0 +1,105 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  parse-english:
+    specifier: ^7.0.0
+    version: registry.npmmirror.com/parse-english@7.0.0
+
+packages:
+
+  registry.npmmirror.com/@types/nlcst@2.0.0:
+    resolution: {integrity: sha512-I9C4z+WomFXx84dsmc0n8ReaSsCKjmu9Z2Zu8C4aHoYuvANzsj0tg3UBCKVCCF0ISZ1S1VZs1Rw5vv9RCg+1gA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/nlcst/-/nlcst-2.0.0.tgz}
+    name: '@types/nlcst'
+    version: 2.0.0
+    dependencies:
+      '@types/unist': registry.npmmirror.com/@types/unist@3.0.0
+    dev: false
+
+  registry.npmmirror.com/@types/unist@3.0.0:
+    resolution: {integrity: sha512-MFETx3tbTjE7Uk6vvnWINA/1iJ7LuMdO4fcq8UfF0pRbj01aGLduVvQcRyswuACJdpnHgg8E3rQLhaRdNEJS0w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@types/unist/-/unist-3.0.0.tgz}
+    name: '@types/unist'
+    version: 3.0.0
+    dev: false
+
+  registry.npmmirror.com/array-iterate@2.0.1:
+    resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/array-iterate/-/array-iterate-2.0.1.tgz}
+    name: array-iterate
+    version: 2.0.1
+    dev: false
+
+  registry.npmmirror.com/nlcst-to-string@4.0.0:
+    resolution: {integrity: sha512-YKLBCcUYKAg0FNlOBT6aI91qFmSiFKiluk655WzPF+DDMA02qIyy8uiRqI8QXtcFpEvll12LpL5MXqEmAZ+dcA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/nlcst-to-string/-/nlcst-to-string-4.0.0.tgz}
+    name: nlcst-to-string
+    version: 4.0.0
+    dependencies:
+      '@types/nlcst': registry.npmmirror.com/@types/nlcst@2.0.0
+    dev: false
+
+  registry.npmmirror.com/parse-english@7.0.0:
+    resolution: {integrity: sha512-mxxj3DyPdvOdiUl1okNub3wwoaaZI/Z++paDg3PH96RYvfVilS63WmQOnHlGm0S05y4g9GEjNP3pylyBsJrAwQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/parse-english/-/parse-english-7.0.0.tgz}
+    name: parse-english
+    version: 7.0.0
+    dependencies:
+      '@types/nlcst': registry.npmmirror.com/@types/nlcst@2.0.0
+      nlcst-to-string: registry.npmmirror.com/nlcst-to-string@4.0.0
+      parse-latin: registry.npmmirror.com/parse-latin@7.0.0
+      unist-util-modify-children: registry.npmmirror.com/unist-util-modify-children@4.0.0
+      unist-util-visit-children: registry.npmmirror.com/unist-util-visit-children@3.0.0
+    dev: false
+
+  registry.npmmirror.com/parse-latin@7.0.0:
+    resolution: {integrity: sha512-mhHgobPPua5kZ98EF4HWiH167JWBfl4pvAIXXdbaVohtK7a6YBOy56kvhCqduqyo/f3yrHFWmqmiMg/BkBkYYQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/parse-latin/-/parse-latin-7.0.0.tgz}
+    name: parse-latin
+    version: 7.0.0
+    dependencies:
+      '@types/nlcst': registry.npmmirror.com/@types/nlcst@2.0.0
+      '@types/unist': registry.npmmirror.com/@types/unist@3.0.0
+      nlcst-to-string: registry.npmmirror.com/nlcst-to-string@4.0.0
+      unist-util-modify-children: registry.npmmirror.com/unist-util-modify-children@4.0.0
+      unist-util-visit-children: registry.npmmirror.com/unist-util-visit-children@3.0.0
+      vfile: registry.npmmirror.com/vfile@6.0.1
+    dev: false
+
+  registry.npmmirror.com/unist-util-modify-children@4.0.0:
+    resolution: {integrity: sha512-+tdN5fGNddvsQdIzUF3Xx82CU9sMM+fA0dLgR9vOmT0oPT2jH+P1nd5lSqfCfXAw+93NhcXNY2qqvTUtE4cQkw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/unist-util-modify-children/-/unist-util-modify-children-4.0.0.tgz}
+    name: unist-util-modify-children
+    version: 4.0.0
+    dependencies:
+      '@types/unist': registry.npmmirror.com/@types/unist@3.0.0
+      array-iterate: registry.npmmirror.com/array-iterate@2.0.1
+    dev: false
+
+  registry.npmmirror.com/unist-util-stringify-position@4.0.0:
+    resolution: {integrity: sha512-0ASV06AAoKCDkS2+xw5RXJywruurpbC4JZSm7nr7MOt1ojAzvyyaO+UxZf18j8FCF6kmzCZKcAgN/yu2gm2XgQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/unist-util-stringify-position/-/unist-util-stringify-position-4.0.0.tgz}
+    name: unist-util-stringify-position
+    version: 4.0.0
+    dependencies:
+      '@types/unist': registry.npmmirror.com/@types/unist@3.0.0
+    dev: false
+
+  registry.npmmirror.com/unist-util-visit-children@3.0.0:
+    resolution: {integrity: sha512-RgmdTfSBOg04sdPcpTSD1jzoNBjt9a80/ZCzp5cI9n1qPzLZWF9YdvWGN2zmTumP1HWhXKdUWexjy/Wy/lJ7tA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/unist-util-visit-children/-/unist-util-visit-children-3.0.0.tgz}
+    name: unist-util-visit-children
+    version: 3.0.0
+    dependencies:
+      '@types/unist': registry.npmmirror.com/@types/unist@3.0.0
+    dev: false
+
+  registry.npmmirror.com/vfile-message@4.0.2:
+    resolution: {integrity: sha512-jRDZ1IMLttGj41KcZvlrYAaI3CfqpLpfpf+Mfig13viT6NKvRzWZ+lXz0Y5D60w6uJIBAOGq9mSHf0gktF0duw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vfile-message/-/vfile-message-4.0.2.tgz}
+    name: vfile-message
+    version: 4.0.2
+    dependencies:
+      '@types/unist': registry.npmmirror.com/@types/unist@3.0.0
+      unist-util-stringify-position: registry.npmmirror.com/unist-util-stringify-position@4.0.0
+    dev: false
+
+  registry.npmmirror.com/vfile@6.0.1:
+    resolution: {integrity: sha512-1bYqc7pt6NIADBJ98UiG0Bn/CHIVOoZ/IyEkqIruLg0mE1BKzkOXY2D6CSqQIcKqgadppE5lrxgWXJmXd7zZJw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vfile/-/vfile-6.0.1.tgz}
+    name: vfile
+    version: 6.0.1
+    dependencies:
+      '@types/unist': registry.npmmirror.com/@types/unist@3.0.0
+      unist-util-stringify-position: registry.npmmirror.com/unist-util-stringify-position@4.0.0
+      vfile-message: registry.npmmirror.com/vfile-message@4.0.2
+    dev: false

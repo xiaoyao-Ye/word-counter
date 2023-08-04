@@ -59,13 +59,18 @@ const readFile = (path) => {
   });
 };
 
-const docs = await readFile("./deliberate-practice-guide.md");
+const wordCounter = async () => {
+  const docs = await readFile("./deliberate-practice-guide.md");
 
-const tree = new ParseEnglish().parse(docs);
-const paragraphList = getParagraph(tree);
-const sentenceList = getSentence(paragraphList);
-const wordList = getWord(sentenceList);
-const textList = getText(wordList);
-const countObj = statistics(textList);
-let sortedObj = sortObj(countObj);
-console.log(sortedObj);
+  const tree = new ParseEnglish().parse(docs);
+  const paragraphList = getParagraph(tree);
+  const sentenceList = getSentence(paragraphList);
+  const wordList = getWord(sentenceList);
+  const textList = getText(wordList);
+  const countObj = statistics(textList);
+  let sortedObj = sortObj(countObj);
+  console.log(sortedObj);
+  return sortedObj;
+};
+
+export { wordCounter };
